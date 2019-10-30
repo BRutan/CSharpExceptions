@@ -15,3 +15,5 @@ o	SemiFatal: Exception that stops a particular operation, but not the entire app
 o	NonFatal: Minor exceptions that will not stop program. Examples include GenericValueErrors, meant to detail programming mistakes (such as type conversion errors, out of bounds, etc).
 
 All of the above are derived from GenericException. 
+
+The relevant unit test is ExceptionTest.cs.
